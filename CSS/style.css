@@ -1,0 +1,446 @@
+/*ESTILIZAÇOES GERAIS*/ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    padding: 0 25px;
+}
+.clear{
+    clear: both;
+}
+.w50{
+    width: 50%;
+}
+.w100{
+    width: 100%;
+}
+.w33{
+    width: 33.3%;
+}
+/*FIM DAS ESTILIZAÇOES GERAIS*/
+
+/*ESTILIZAÇAO DO HEADER*/
+.main{
+    position: relative;
+    height: 620px;
+    background-image: url(/images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 620px;
+}
+.icons-social{
+    padding-top: 15px;
+    text-align: right;
+}
+.icons-social i{
+    font-size: 22px;
+    margin-left:10px ;
+    color: white;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+header{
+    padding: 10px;
+    display: flex;
+    z-index: 2;
+    border-bottom: 1px solid white;
+}
+header nav.mobile{
+    display: none;
+}
+.fa-bars{
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+header nav.menu{
+    margin-top: 5px;
+    height: 100%;
+    text-align: right;
+}
+header nav.menu ul li{
+    display: inline-block;
+    margin-left: 18px;
+    list-style-type: none;
+}
+header nav.menu ul li a, .logo a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height: 100%;
+
+    color: white;
+}
+.conteudo-header{
+    width: 700px;
+    max-width: 100%;
+    padding: 130px 30px 0 0;
+}.conteudo-header span{
+    color: rgb(52, 93, 228);
+}
+.conteudo-header h2{
+    color:white;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.conteudo-header p{
+    margin: 15px 0;
+    color: white;
+    font-weight: lighter;
+}
+.conteudo-header input[type='button']{
+    color: white;
+    background-color: rgb(52, 93, 228);
+    outline: 0;
+    border: 0;
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    font-weight: lighter;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/*FIM ESTILIZAÇAO DO HEADER*/
+
+/*ESTILIZAÇAO SECTION PLANOS*/
+section .planos{
+    width: 100%;
+    height: auto;
+}
+.planos-chamada{
+    text-align: center;
+    padding: 15px 0;
+    background-color: #e3e3e3;
+}
+.planos-chamada h2{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 17px;
+    color:  rgb(52, 93, 228);
+}
+.box-container{
+    margin: 0 auto;
+    width: 100%;
+    padding:50px 0;
+}
+.box-container .container{
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.box-single-conteudo i{
+    margin-right: 5px;
+}
+.box-single{
+    cursor: pointer;
+    max-width: 330px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 7px #939393;
+}
+.box-single:hover{
+    scale: 1.03;
+}
+.box-single h2{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    padding: 15px 0;
+    background-color: rgb(52, 93, 228) ;
+}
+.box-single-conteudo{
+    padding: 30px 15px;
+}
+.box-single-conteudo p{
+    color:#6f6f6f;
+    margin-bottom: 7px;
+    font-weight: lighter;
+}
+.price{
+    padding: 7px 0;
+    text-align: center;
+    margin: 15px auto;
+    width: 160px;
+    height: 45px;
+    border-top:1px solid #6f6f6f;
+}
+.price h3{
+    font-weight: lighter;
+    font-size: 30px;
+    color:#6f6f6f;
+}
+/* FIM ESTILIZAÇAO SECTION PLANOS*/
+
+/*ESTILIZAÇAO SECTION SOBRE*/
+.sobre{
+    position: relative;
+    height: 300px;
+    background-image: url(https://images.jota.info/wp-content/uploads/2022/08/thom-xyni3rueree-unsplash-1536x1018.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+.sobre-conteudo{
+    padding-top: 70px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.sobre h2{
+    color:white;
+    font-weight: lighter;
+    font-size: 30px ;
+    text-align: center;
+}
+.sobre p{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color:white;
+}
+.sobre span{
+    color: rgb(52, 93, 228)
+}
+.sobre .container{
+    z-index: 2;
+}
+/*FIM ESTILIZAÇAO SECTION SOBRE*/
+
+/*ESTILIZAÇAO SECTION FORM-EQUIPE*/
+.form-equipe{
+    width: 100%;
+    height: auto;
+    padding:30px 0;
+}
+.formulario form{
+    margin: 0 auto;
+}
+.formulario h2{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+label{
+    font-size: 15px;
+    font-weight: lighter;
+}
+form input{
+    margin-bottom: 12px;
+}
+.formulario form{
+    width: 100%;
+    max-width: 400px;
+}
+.formulario form input{
+    width: 95%;
+    padding: 2px 7px;
+    height: 30px;
+    outline: 0;
+    border:1px solid #939393;
+}
+.formulario form textarea{
+    width: 95%;
+    padding: 2px 7px;
+    resize: vertical;
+    min-height: 50px;
+    max-height: 120px;
+    outline: 0;
+}
+input[type="submit"]{
+    border: 0;
+    background-color:  rgb(52, 93, 228) ;
+    margin: 12px auto;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.box-time-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.box-time-single{
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    box-shadow: 2px 2px 7px #939393;
+}
+.equipe h2{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 12px; 
+    margin-left: 10px;
+}
+.img-nome{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.img-nome img{
+   width:60px;
+   height: 60px;
+    margin-right: 10px;
+}
+.img-nome .nome{
+    margin-top: 10px;
+    color: #414141;
+}
+.pessoa-descricao{
+    border-top: 1px solid #6f6f6f;
+    width: 90%;
+    color: #6f6f6f;
+    padding-top: 15px;
+    margin: 0 auto;
+    text-align:center;
+}
+/*FIM ESTILIZAÇAO SECTION FORM-EQUIPE*/
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background-color: #414141;
+}
+footer p, footer a{
+    color: white;
+    text-decoration: none;
+}
+footer .w50{
+    text-align: center;
+}
+
+/*FOOTER*/
+
+/*RESPONSIVO*/
+@media screen and (max-width: 1100px) {
+    .box-container{
+        padding:20px 0;
+    }
+    .box-container .container{
+        display: block;
+    }
+    .box-single{
+        width: 70%;
+        margin: 30px auto;
+    }
+    .equipe{
+        margin-top: 50px;
+        width:100%;
+    }
+    .equipe h2{
+        text-align: center;
+    }
+    .formulario{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .conteudo-header{
+        width: 100%;
+        text-align: center;
+        padding: 90px 30px 0;
+    }
+    .box-single{
+        width: 80%;
+    }
+    .sobre h2{
+        font-size: 20px ;
+
+    }
+    .sobre p{
+        font-size: 13px;
+    }
+    .sobre-conteudo{
+        padding-top: 80px;
+    }
+    .form-equipe .container{
+        display: block;
+    }
+}
+@media screen and (max-width: 500px) {
+    .conteudo-header{
+        width: 100%;
+        text-align: center;
+        padding: 35px 10px 0;
+    }
+    .conteudo-header h2{
+        font-size: 25px;
+    }
+    .conteudo-header p{
+        margin-top: 25px;
+        font-size: 13px;
+    }
+    .box-single{
+        width: 100%;
+    }
+    .second-p{
+        display: none;
+    }
+    .box-time-container{
+        display: block;
+    }
+    .box-time-single{
+        width: 88%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    header nav.mobile{
+        display: block;
+        text-align: right;
+    }
+    header nav.desktop{
+        display: none;
+    }
+    .mobile ul{
+        text-align: center;
+        display: none;
+        list-style-type: none;
+        position: absolute;
+        left:39%;
+        top:87px;
+        width: 50%;
+        padding: 35px 0;
+        background-color: white;
+    }
+    .mobile ul li{
+        margin: 10px;
+    }
+    .mobile a{
+        text-decoration: none;
+        color: black;
+    }
+    footer .container{
+        display: block;
+    }
+    footer .w50{
+        margin:15px 0;
+        width: 100%;
+    }
+
+}
+
+/*FIM RESPONSIVO*/
